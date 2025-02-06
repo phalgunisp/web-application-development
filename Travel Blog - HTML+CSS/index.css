@@ -1,11 +1,11 @@
 /* Global styles */
 :root {
-    --primary-grey: #555; /* Softer primary grey */
+    --primary-grey: #555;
     --secondary-grey: #888;
-    --light-grey: #ddd; /* Lighter grey */
-    --primary-beige: #faf9f6; /* Lightest beige */
-    --secondary-beige: #f5f5f0; /* Slightly darker beige */
-    --dark-beige: #ecebe6; /* Muted beige */
+    --light-grey: #ddd; 
+    --primary-beige: #faf9f6; 
+    --secondary-beige: #f5f5f0; 
+    --dark-beige: #ecebe6; 
 }
 
 body {
