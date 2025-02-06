@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="product-name">Lavender Bath Soap</td>
+                    <td>
+                        <input type="number" value="1" min="0">
+                    </td>
+                    <td class="price">100.00rs</td>
+                    <td class="total-amount">100.00rs</td>
+                </tr>
+                <tr>
+                    <td class="product-name">Rose Hand Cream</td>
+                    <td>
+                        <input type="number" value="1" min="0">
+                    </td>
+                    <td class="price">90.00rs</td>
+                    <td class="total-amount">180.00rs</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <p class="total">Total: <span>280.00rs</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+</body>
+</html>
